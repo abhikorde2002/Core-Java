@@ -1,4 +1,4 @@
-package Kunal.Array.Binearysearch;
+package Abhi.Array.Binearysearch;
 
 public class smallestletter {
     public static void main(String[] args) {

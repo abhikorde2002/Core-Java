@@ -1,4 +1,4 @@
-package Kunal.Array.Linearsearch;
+package Abhi.Array.Linearsearch;
 
 public class EvenDigits {
     public static void main(String[] args) {

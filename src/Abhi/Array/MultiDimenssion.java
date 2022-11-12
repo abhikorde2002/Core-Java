@@ -1,4 +1,4 @@
-package Kunal.Array;
+package Abhi.Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;

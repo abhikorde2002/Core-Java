@@ -1,4 +1,4 @@
-package Kunal.Array.Linearsearch;
+package Abhi.Array.Linearsearch;
 //search in arr :return index if item found.
 public class search {
     public static void main(String[] args) {

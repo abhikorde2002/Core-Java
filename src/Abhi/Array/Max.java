@@ -1,4 +1,4 @@
-package Kunal.Array;
+package Abhi.Array;
 //Max value in range.
 public class Max {
     public static void main(String[] args) {

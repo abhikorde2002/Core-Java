@@ -1,4 +1,4 @@
-package Kunal.Array.Linearsearch;
+package Abhi.Array.Linearsearch;
 
 import java.util.Arrays;
 

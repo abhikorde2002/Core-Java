@@ -1,4 +1,4 @@
-package Kunal.Array.Linearsearch;
+package Abhi.Array.Linearsearch;
 
 public class searchinrange {
     public static void main(String[] args) {

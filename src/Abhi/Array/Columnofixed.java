@@ -1,4 +1,4 @@
-package Kunal.Array;
+package Abhi.Array;
 
 public class Columnofixed {
     public static void main(String[] args) {

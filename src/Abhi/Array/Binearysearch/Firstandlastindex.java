@@ -1,4 +1,4 @@
-package Kunal.Array.Binearysearch;
+package Abhi.Array.Binearysearch;
 
 import java.util.Arrays;
 
