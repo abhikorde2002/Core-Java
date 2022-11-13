@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class firshnevennumber {
+public class firstNEvennumber {
     public static void main(String[]args){
         int number;
         int sum=0;
