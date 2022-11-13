@@ -9,6 +9,7 @@ public class powerofnumber {
         int base=scanner.nextInt();
         System.out.println("Enter the power :-");
         int power=scanner.nextInt();
+        System.out.println(power(power, base));
     }
     static  int power(int power,int base){
         int product=1;
@@ -17,7 +18,7 @@ public class powerofnumber {
             product=product*base;
 
         }
-        System.out.println(base+"raise to "+power+"is "+product);
+        System.out.println(base+" raise to  "+power+" is "+product);
         return product;
 
     }
