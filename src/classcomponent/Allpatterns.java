@@ -3,15 +3,18 @@ package classcomponent;
 public class Allpatterns {
     public static void main(String[] args) {
         int num=5;
-        pattern8(num);
-    }    
+        char ch='A';
+        pattern( num);
+    } 
+    
+    
     static void pattern(int num){
-        for (int row = 0; row <num; row++) {
-            for(int col=0;col<=row;col++){
-                System.out.print("* ");
-            }
-        System.out.println();    
+      for(int row=0;row< num;row++){
+        for(int col=0;col<=row;col++){
+            System.out.print("* ");
         }
+        System.out.println();
+      }
     }
     /* 
 * 
@@ -19,6 +22,22 @@ public class Allpatterns {
 * * * 
 * * * * 
 * * * * *  */
+static void patterns(int num){
+    for(int row=0;row< num; row++){
+        for(int col=0;col<num-row;col++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    
+}
+/*
+*****
+****
+***
+**
+*
+ */
 static void pattern1(int num){
     for(int row=num ; row>=1 ;row--){
         for(int space=num;space>=row;space--){
@@ -85,6 +104,38 @@ a a a a a *
  1 2 3
  1 2 3 4
  1 2 3 4 5
+   */
+  static void patterns9(int num){
+    for(int row=1;row<=num;row++){
+        for(int col=1;col<=row;col++){
+            System.out.print(" " +row);
+        }
+        System.out.println();
+    }
+  }
+  /*
+ 1
+ 2 2
+ 3 3 3
+ 4 4 4 4
+ 5 5 5 5 5
+   */
+  static void pattCha(int num,char ch){
+    for(int row=0;row<=num;row++){
+        for(int col=0;col<=row;col++){
+            System.out.print(ch+" ");
+            ch++;
+        }
+        System.out.println();
+    }
+  }
+  /*
+A 
+B C
+D E F
+G H I J
+K L M N O
+P Q R S T U
    */
 
    static void patterns5(int num){
@@ -237,4 +288,22 @@ a a a a a *
   * * * *
 * * * * *
    */
+  static void pattern10(int num){
+    for(int row=num ; row>=1 ;row--){
+        for(int space=num;space>=row;space--){
+            System.out.print(" ");
+        }
+        for(int col=1;col<=row;col++){
+            System.out.print("* ");
+        }
+    System.out.println();    
+    }
+}
+/*
+ * * * * * 
+  * * * *
+   * * *
+    * *
+     *
+ */
 }
