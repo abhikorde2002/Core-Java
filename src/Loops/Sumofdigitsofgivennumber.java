@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
 public class Sumofdigitsofgivennumber {
-    public static void main(String[] args){
-        System.out.println("Enter the number");
-        Scanner s1=new Scanner(System.in);
-        int number=s1.nextInt();
-        int original=number;
-        int sumofdigits =0;
-
-        while(number>0){
-            int digits=number%10;
-            sumofdigits=sumofdigits+digits;
-            number=number/10;
-        }
-        System.out.println("Sumofdigits"+original+ " "+sumofdigits);
-    }
+    public static void main(String[] args) {
+        dig(100);
+ 
+     }
+ 
+     static int dig(int num){
+         int sum=0;
+         while (num>0){
+             int dig=num%10;
+             sum=sum+dig;
+             num=num/10;
+         }
+         System.out.println("Sum of digits"+num+" is "+sum);
+         return sum;
+     }
         }

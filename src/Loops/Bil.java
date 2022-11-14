@@ -1,9 +1,6 @@
-package Abhi;
-
 import java.util.Scanner;
 
-//Calculate Discount on product.
-public class Discountproduct {
+public class Bil {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the amount :- ");

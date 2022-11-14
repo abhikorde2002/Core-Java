@@ -1,5 +1,3 @@
-package Abhi;
-
 import java.util.Scanner;
 
 public class OTP {
