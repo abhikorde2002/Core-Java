@@ -92,7 +92,7 @@ public class Pattern1 {
                 System.out.print(" ");
             }
             for(int col=row;col<num;col++){
-                System.out.print("* ");
+                System.out.print("*");
             }
             System.out.println();
         }
