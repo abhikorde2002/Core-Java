@@ -5,7 +5,7 @@ public class PrimeInRange {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the range:- ");
         int num=scanner.nextInt();
-        for(int i=3;i<=num;i++){
+        for(int i=2;i<=num;i++){
             if(isPrime(i)){
                 System.out.println(i);
             }
