@@ -42,6 +42,17 @@ public class Pattern1 {
         * *
          *
      */
+    static void pat(int num){
+        for(int row=0; row<=num ;row++){
+            for(int space=0;space<row;space++){
+                System.out.print(" ");
+            }
+            for(int col=row;col< num;col++){
+                System.out.print("*");
+            }
+        System.out.println();    
+        }
+    }
     static void pattern(int num){
         for(int row=1;row<=num;row++){
             for(int col=1;col<=num-row;col++){

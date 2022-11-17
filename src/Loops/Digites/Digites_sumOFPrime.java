@@ -9,6 +9,7 @@ public class Digites_sumOFPrime {
         int upper=scanner.nextInt();
         int sum=1;
        int sumD = 0;
+      
         for (int i = 2;i <= upper; i++){
           if (isPrime (i)){
            int prime = i;
