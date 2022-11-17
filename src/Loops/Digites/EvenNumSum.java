@@ -1,4 +1,4 @@
-package Loops.Digites;
+package Digites;
 
 public class EvenNumSum {
     static int sumofEven=0;

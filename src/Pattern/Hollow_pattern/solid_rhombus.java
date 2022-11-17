@@ -4,7 +4,6 @@ class solid_rhombus{
     public static void main(String[] args) {
         int num=5;
         rhombus(num);
-        rhombus_hollow(4, 5);
     }
 
     static void rhombus(int num){
