@@ -2,7 +2,7 @@ package Pattern.Hollow_pattern;
 
 public class diamon_pattern {
     public static void main(String[] args) {
-        diamon(4);
+        invers_peramid(4);
     }
     static void peramid(int num){
         for(int row=1;row<=num;row++){
@@ -26,7 +26,7 @@ public class diamon_pattern {
     static void invers_peramid(int num){
         for(int row=num;row>=1;row--){
             for(int spaces=1;spaces<=num-row;spaces++){
-                System.out.print(" ");
+                System.out.print("-");
             }
             for(int col=1;col<=2*row-1;col++){
                 System.out.print("*");
@@ -63,5 +63,15 @@ public class diamon_pattern {
             System.out.println();
         }
       } 
+      /*
+   *
+  ***
+ *****
+*******
+*******
+ *****
+  ***
+   *
+       */
     }
 

@@ -3,7 +3,7 @@ package Pattern.Patterns_with_spaces;
 public class Pattern1 {
     public static void main(String[] args) {
         int num=5;
-        pattern(num);
+        pat(num);
     }
     static void peramid(int num){
         for(int row=0;row<=num;row++){
@@ -48,11 +48,20 @@ public class Pattern1 {
                 System.out.print(" ");
             }
             for(int col=row;col< num;col++){
-                System.out.print("*");
+                System.out.print("* ");
             }
         System.out.println();    
         }
     }
+    /*
+      /*
+     * * * * * 
+      * * * *
+       * * *
+        * *
+         *
+     */
+     
     static void pattern(int num){
         for(int row=1;row<=num;row++){
             for(int col=1;col<=num-row;col++){
