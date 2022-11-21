@@ -22,7 +22,6 @@ public class DuplicateArray {
         }
         for (int a : result) {
             System.out.println(a);
-            // System.out.println(flag ? "Duplicate" : "Not Duplicate");
         }
 
     }
