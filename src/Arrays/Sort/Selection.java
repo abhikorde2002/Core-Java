@@ -51,4 +51,10 @@ public class Selection {
             System.out.print(arr[i] + " ");
         }
     }
+    /*
+     * Incresing Selection sort :-
+     * 1 2 3 4 5
+     * Decresing Selection sort :-
+     * 5 4 3 2 1
+     */
 }
