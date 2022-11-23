@@ -13,7 +13,7 @@ public class insersion {
             System.out.println("From outer loop " + curr);
             printArr(arr);
             // Finding out the correct pos to inset
-            while (prev >= 0 && arr[prev] < curr) {
+            while (prev >= 0 && arr[prev] > curr) {
                 arr[prev + 1] = arr[prev];
                 prev--;
             }
@@ -52,4 +52,42 @@ public class insersion {
         System.out.println();
     }
 
+    static void decreasing(int arr[]) {
+        for (int i = 1; i < arr.length; i++) {
+            int curr = arr[i];
+            int prev = i - 1;
+            System.out.println("From outer loop " + curr);
+            printArr(arr);
+            // Finding out the correct pos to inset
+            while (prev >= 0 && arr[prev] < curr) {
+                arr[prev + 1] = arr[prev];
+                prev--;
+            }
+
+            // insersion
+            arr[prev + 1] = curr;
+            System.out.println("From inner loop " + prev);
+            printArr(arr);
+        }
+        printArr(arr);
+    }
+    /*
+     * From outer loop 4
+     * 5 4 1 3 2
+     * From inner loop 0
+     * 5 4 1 3 2
+     * From outer loop 1
+     * 5 4 1 3 2
+     * From inner loop 1
+     * 5 4 1 3 2
+     * From outer loop 3
+     * 5 4 1 3 2
+     * From inner loop 1
+     * 5 4 3 1 2
+     * From outer loop 2
+     * 5 4 3 1 2
+     * From inner loop 2
+     * 5 4 3 2 1
+     * 5 4 3 2 1
+     */
 }
