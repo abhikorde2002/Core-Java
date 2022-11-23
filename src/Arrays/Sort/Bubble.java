@@ -1,12 +1,10 @@
-package Search;
+package Sort;
 
-// import classcomponent.Methodes.staticMethodes;
-
-public class BubbleSort {
+public class Bubble {
     public static void main(String[] args) {
         int arr[] = { 6, 4, 1, 6, 2, 3, 4, 5 };
         printArr(arr);
-        swaped(arr);
+        bubble(arr);
         printArr(arr);
     }
 
@@ -71,5 +69,4 @@ public class BubbleSort {
      * 4 1 6 2 6 3 4 5
      * 1 2 3 4 4 5 6 6
      */
-
 }
