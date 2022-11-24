@@ -2,7 +2,7 @@ package Sort;
 
 public class Bubble {
     public static void main(String[] args) {
-        int arr[] = { 6, 4, 1, 6, 2, 3, 4, 5 };
+        int arr[] = { 5, 4, 1, 3, 2 };
         printArr(arr);
         bubble(arr);
         printArr(arr);

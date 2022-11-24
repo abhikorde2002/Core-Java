@@ -27,7 +27,6 @@ public class Counting_Sort {
                 j++;
                 count[i]--;
             }
-            System.out.println(j);
         }
     }
 
