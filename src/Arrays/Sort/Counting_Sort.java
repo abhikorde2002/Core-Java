@@ -20,7 +20,6 @@ public class Counting_Sort {
         // sorting
         int j = 0;
         for (int i = 0; i < count.length; i++) {
-            System.out.println(i);
             while (count[i] > 0) {
 
                 arr[j] = i;
