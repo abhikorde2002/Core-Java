@@ -2,7 +2,7 @@ package TwoD;
 
 import java.util.Scanner;
 
-class Max {
+public class Min {
     public static void main(String[] args) {
         int arr[][] = new int[3][3];
 
@@ -17,16 +17,17 @@ class Max {
             }
         }
 
-        int max = Integer.MIN_VALUE;
+        int min = arr[0][0];
         for (int row = 0; row < n; row++) {
+
             for (int col = 0; col < arr[row].length; col++) {
-                if (max < arr[row][col]) {
-                    max = arr[row][col];
+                if (min > arr[row][col]) {
+                    min = arr[row][col];
                 }
             }
             System.out.println();
         }
-        System.out.println("Max Value in 2D Array :-" + max);
+        System.out.println("Min Value in 2D Array :- " + min);
 
     }
 }
