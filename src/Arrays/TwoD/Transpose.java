@@ -28,4 +28,13 @@ public class Transpose {
             System.out.println();
         }
     }
+    /*
+     * The matrix is:-
+     * 11 12 13
+     * 21 22 23
+     * The matrix is:-
+     * 11 21
+     * 12 22
+     * 13 23
+     */
 }
