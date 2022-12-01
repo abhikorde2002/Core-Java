@@ -1,4 +1,6 @@
-public class BinarytoDecimal {
+package Bit_Manipulation;
+
+public class BInary_Decimal {
     public static void main(String[] args) {
         bintoDec(101);
     }
@@ -18,5 +20,4 @@ public class BinarytoDecimal {
         System.out.println("Decimal of " + binNum + " =" + decNum);
 
     }
-
 }
