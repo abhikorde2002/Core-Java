@@ -1,5 +1,6 @@
 package String;
 
+// String Compression :"aaabbcccdd" :- "a3b2c3d2".
 public class Compression {
     public static void main(String[] args) {
         String str = "aaabbcccdd";
