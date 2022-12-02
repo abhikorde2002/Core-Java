@@ -3,6 +3,8 @@ package Bit_Manipulation;
 public class Odd_Even {
     public static void main(String[] args) {
         Odd_Even(16);
+        Odd_Even(17);
+        Odd_Even(10);
     }
 
     static void Odd_Even(int n) {
