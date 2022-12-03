@@ -2,7 +2,7 @@ package Bit_Manipulation;
 
 public class Decimal_Binary {
     public static void main(String[] args) {
-        decimal(5);
+        decimal(14);
     }
 
     static void decimal(int n) {

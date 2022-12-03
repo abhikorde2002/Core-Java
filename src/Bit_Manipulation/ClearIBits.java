@@ -2,7 +2,7 @@ package Bit_Manipulation;
 
 public class ClearIBits {
     public static void main(String[] args) {
-        System.out.println(clearI(10, 2, 4));
+        System.out.println(clearI(6, 2, 7));
     }
 
     static int clearI(int n, int i, int j) {
