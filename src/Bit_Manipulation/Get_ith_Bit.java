@@ -2,7 +2,7 @@ package Bit_Manipulation;
 
 public class Get_ith_Bit {
     public static void main(String[] args) {
-        System.out.println(getIth(5, 2));
+        System.out.println(getIth(5, 1));
     }
 
     static int getIth(int n, int i) {

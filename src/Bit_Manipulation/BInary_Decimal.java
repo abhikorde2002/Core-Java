@@ -2,7 +2,7 @@ package Bit_Manipulation;
 
 public class BInary_Decimal {
     public static void main(String[] args) {
-        bintoDec(0010);
+        bintoDec(11110);
     }
 
     static void bintoDec(int binNum) {
