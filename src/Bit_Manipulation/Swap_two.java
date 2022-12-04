@@ -1,5 +1,6 @@
 package Bit_Manipulation;
 
+//Swaping Two number without Third Variable
 public class Swap_two {
     public static void main(String[] args) {
         swap(3, 4);
