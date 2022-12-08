@@ -1,5 +1,6 @@
 package Recursion_Basic;
 
+//First Occurence of an element in an array.
 public class find_occurence {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 4, 5, 6 };
