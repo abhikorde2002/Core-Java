@@ -11,7 +11,8 @@ public class Power_Optimized {
         if (n == 0) {
             return 1;
         }
-        int half_Power = optimized(a, n / 2) * optimized(a, n / 2);
+        int half_power = optimized(a, n / 2);
+        int half_Power = half_power * half_power;
         if (n % 2 != 0) {
             half_Power = a * half_Power;
         }
