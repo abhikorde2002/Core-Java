@@ -2,9 +2,8 @@ package Recursion_Basic;
 
 public class Remove_Duplicate {
     public static void main(String[] args) {
-        String str = "appnnacollege";
+        String str = "Heeloool";
         rempve(str, 0, new StringBuilder(""), new boolean[26]);
-
     }
 
     static void rempve(String str, int idx, StringBuilder newStr, boolean map[]) {
@@ -13,6 +12,7 @@ public class Remove_Duplicate {
             return;
         }
         char currCharAt = str.charAt(idx);
+
         if (map[currCharAt - 'a'] == true) {
             // duplicate
             rempve(str, idx + 1, newStr, map);
