@@ -10,9 +10,9 @@ public class Print_sum {
         if (n == 1) {
             return 1;
         }
-        int Sumofn = sum(n - 1);
-        int Sn = n + Sumofn;
-        return Sn;
+        // int Sumofn = sum(n - 1);
+        // int Sn = n + Sumofn;
+        return n + sum(n - 1);
     }
 
 }
