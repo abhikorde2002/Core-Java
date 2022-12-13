@@ -89,5 +89,19 @@ public class Bubble {
                 return;
         }
     }
+    /*
+     * 1 2 3 4 5
+     * From outer loop 0
+     * 1 2 3 4 5
+     * From inner loop 0
+     * 1 2 3 4 5
+     * From inner loop 1
+     * 1 2 3 4 5
+     * From inner loop 2
+     * 1 2 3 4 5
+     * From inner loop 3
+     * 1 2 3 4 5
+     * 1 2 3 4 5
+     */
 
 }
