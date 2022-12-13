@@ -2,9 +2,9 @@ package Sort;
 
 public class Bubble {
     public static void main(String[] args) {
-        int arr[] = { 5, 4, 1, 3, 2 };
+        int arr[] = { 1, 2, 3, 4, 5 };
         printArr(arr);
-        bubble(arr);
+        swaped1(arr);
         printArr(arr);
     }
 
@@ -55,6 +55,7 @@ public class Bubble {
                 return;
         }
     }
+
     /*
      * 6 4 1 6 2 3 4 5
      * From outer loop 0
@@ -69,4 +70,24 @@ public class Bubble {
      * 4 1 6 2 6 3 4 5
      * 1 2 3 4 4 5 6 6
      */
+    static void swaped1(int arr[]) {
+        for (int turn = 0; turn < arr.length - 1; turn++) {
+            boolean swap = false;
+            System.out.println("From outer loop " + turn);
+            printArr(arr);
+            for (int j = 0; j < arr.length - 1 - turn; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int tem = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tem;
+                    swap = true;
+                }
+                System.out.println("From inner loop " + j);
+                printArr(arr);
+            }
+            if (swap == false)
+                return;
+        }
+    }
+
 }
