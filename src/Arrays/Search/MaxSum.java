@@ -2,7 +2,7 @@ package Search;
 
 public class MaxSum {
     public static void main(String[] args) {
-        int arr[] = { 1, -2, 6, -1, 3 };
+        int arr[] = { 5, 1, 3, 4, 7 };
         maxSubarray(arr);
     }
 
@@ -30,6 +30,7 @@ public class MaxSum {
     static void maxSubarray(int arr[]) {
         int max = Integer.MIN_VALUE;
         int currentSum = 0;
+        int count = 1;
         for (int i = 0; i < arr.length; i++) {
             int start = i;
             for (int j = i; j < arr.length; j++) {
@@ -41,10 +42,12 @@ public class MaxSum {
                 System.out.println(currentSum);
                 if (currentSum > max) {
                     max = currentSum;
+                    count++;
                 }
                 System.out.print(" ");
             }
         }
         System.out.println("Max sum is :-" + max);
+        System.out.println(count);
     }
 }
