@@ -1,7 +1,5 @@
 package Backtracking;
 
-import javax.xml.transform.SourceLocator;
-
 // Chek if proble can be solve & print only 1 solution to N Queens problem
 public class N_Que_1Sol {
     public static void main(String[] args) {
