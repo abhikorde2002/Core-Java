@@ -4,7 +4,7 @@ public class Grid {
     public static void main(String[] args) {
         int n = 3, m = 3;
         System.out.println(gridWays(0, 0, n, m));
-
+ 
     }
 
     static int gridWays(int i, int j, int n, int m) {
