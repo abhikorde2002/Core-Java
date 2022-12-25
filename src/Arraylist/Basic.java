@@ -14,6 +14,10 @@ public class Basic {
         list.add(34);
         System.out.println(list);
 
+        // Another way to adding values in ArrayList
+        list.add(4, 5);
+        System.out.println(list);
+
         // Get Element
         int element = list.get(2);
         System.out.println(element);
