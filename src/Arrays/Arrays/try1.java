@@ -1,6 +1,6 @@
 package Arrays;
 
-import classcomponent.scope;
+// import classcomponent.scope;
 
 public class try1 {
     String str = new String("Tree");
