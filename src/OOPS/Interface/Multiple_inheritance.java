@@ -4,7 +4,6 @@ public class Multiple_inheritance {
     public static void main(String[] args) {
         Bear bear = new Bear();
         bear.eat();
-
         Sum s= new Sum();
         s.Add();
         s.add(2, 4);
