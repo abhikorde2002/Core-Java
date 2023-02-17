@@ -2,7 +2,7 @@ package classcomponent;
 
 public class Allpatterns {
     public static void main(String[] args) {
-        int num=5;
+        int num=4;
         char ch='A';
         pattern( num);
     } 
@@ -17,6 +17,7 @@ public class Allpatterns {
       }
     }
     /* 
+
 * 
 * * 
 * * * 
