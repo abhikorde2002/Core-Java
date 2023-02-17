@@ -1,5 +1,5 @@
 package Multithreading;
-
+//Interupted Exception using sleep
 public class Inter_ThreadCommunication extends Thread { 
     int total =0;
      public void run(){   
@@ -17,3 +17,4 @@ class Thread1{
         System.out.println("Total is:-" +t.total);
     }
 }
+///Total is:-5050
