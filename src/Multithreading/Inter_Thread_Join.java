@@ -6,6 +6,7 @@ public class Inter_Thread_Join extends Thread{
        for(int i=1;i<=100;i++){
            total = total+i;
        }  
+       //20000 lines of code
    }
 }
 class Thread11{
@@ -17,3 +18,6 @@ class Thread11{
         System.out.println("Total is:-" +t.total);
     }
 }
+//Main method will wait for exection of child thread . 
+//If child has remainig 20000 lines of code then main will wait for complt exection of child 
+//Then Main execte
