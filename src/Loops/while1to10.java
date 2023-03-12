@@ -6,5 +6,10 @@ public class while1to10 {
            number++;
          System.out.println(number);
      }
+    //  int num=10;
+    //  while(num>0){
+    //     num--;
+    //   System.out.println(num);
+    //  }
     }
 }

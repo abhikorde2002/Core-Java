@@ -1,10 +1,13 @@
-package Collection.Arraylist;
+// package Collection.List.Arraylist;
+
+ package Collection.List.Arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Methods {
     public static void main(String[] args) {
+      
         ArrayList a= new ArrayList();
 
         a.add(0, "Java");
@@ -26,6 +29,8 @@ public class Methods {
        Object arr[]=a.toArray();
        for(Object k :arr){
         System.out.println(k);
+
+           
        }
     }
 }

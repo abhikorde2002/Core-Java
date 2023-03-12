@@ -2,7 +2,7 @@ package String;
 
 public class Spaces {
     public static void main(String[] args) {
-        String str = "hello ,coders I am Abhishek";
+        String str = " hello ,coders I am Abhishek";
         // StringBuilder str1 = new StringBuilder("");
 
         char ch = '$';

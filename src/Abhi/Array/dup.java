@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class dup {
     public static void main(String[] args) {
-        int []nums={1,1,2,2,5,2};
+        int []nums={1,1,2,2,5};
         System.out.println(re(nums));
     }
     static int re(int []nums){

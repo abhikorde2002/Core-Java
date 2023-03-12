@@ -26,7 +26,6 @@ public class Bubble {
             if (isSorted == true)
                 return;
         }
-
     }
 
     static void printArr(int arr[]) {

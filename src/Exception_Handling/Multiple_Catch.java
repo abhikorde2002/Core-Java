@@ -10,7 +10,7 @@ public class Multiple_Catch {
         }
         catch(ArrayIndexOutOfBoundsException e ){
             System.out.println(e.getMessage());
-            System.out.println("ArrayIndexOut of bound exception");
+            // System.out.println("ArrayIndexOut of bound exception");
         }
         catch(NullPointerException e){
             System.out.println(e.getMessage());

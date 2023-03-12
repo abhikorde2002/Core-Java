@@ -1,6 +1,6 @@
 package Multithreading;
 
-import Search.time;
+// import Search.time;
 
 public class Inter_Thread  extends Thread{
     int Total =0;

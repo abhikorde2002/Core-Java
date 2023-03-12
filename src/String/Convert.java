@@ -4,6 +4,7 @@ public class Convert {
     public static void main(String[] args) {
         String str = new String("hi, i am abhishek ");
         System.out.println(toUpper(str));
+        letters(str);
     }
 
     static String toUpper(String str) {
@@ -22,5 +23,24 @@ public class Convert {
             }
         }
         return sb.toString();
+    }
+    static void letters(String str){
+        String str1="";
+        
+        char ch=Character.toUpperCase(str.charAt(0));
+        str1+=ch;
+
+        for(int i=1;i<str.length();i++){
+            if(str.charAt(i)==' ' && i< str.length()-1){
+               str1+=str.charAt(i);
+               i++;
+               str1+=Character.toUpperCase(str.charAt(i));
+            }
+            else{
+                str1+=str.charAt(i);
+            }
+
+        }
+        System.out.println(str1);
     }
 }

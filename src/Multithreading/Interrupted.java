@@ -2,7 +2,7 @@ package Multithreading;
 
 public class Interrupted extends Thread {
        public void run(){
-        for(int i=1;i<=10000;i++){
+        for(int i=1;i<=5;i++){
             System.out.println("Child Thread ");
         }
         System.out.println("I want to sleep");
@@ -20,5 +20,8 @@ class IntDemo{
         Interrupted i = new Interrupted();
         i.start();
         i.interrupt();
+        for(int j=0;j<=5;j++){
+            System.out.println("Hello");
+        }
     }
 }

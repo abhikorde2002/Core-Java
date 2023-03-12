@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class DuplicateArray {
     public static void main(String[] args) {
-        int[] array = { 10, 20, 20, 23, 44 };
+        int[] array = { 10, 20, 20, 23, 44,20 };
         boolean flag = false;
         int index = 0;
         int[] result = new int[array.length - 1];
@@ -13,7 +13,7 @@ public class DuplicateArray {
             if (array[j] == array[j + 1]) {
                 flag = true;
                 index = j;
-                break;
+                continue;
             }
             result[j] = array[j];
         }

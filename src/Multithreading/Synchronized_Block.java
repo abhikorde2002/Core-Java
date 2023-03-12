@@ -3,7 +3,7 @@ package Multithreading;
 public class Synchronized_Block {
      void printTable(int n){
         //10 thousand lines of code
-        synchronized (this){
+        // synchronized (this){
         try{
         for(int i=1;i<=5;i++){
             System.out.println(n+"x"+i+"="+n*i+" "+Thread.currentThread().getName());
@@ -17,7 +17,7 @@ public class Synchronized_Block {
         }
         //10 thousand lines of code
     }
-}
+// }
 
 class My extends Thread{
     Synchronized_Block t;

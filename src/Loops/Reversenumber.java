@@ -13,6 +13,6 @@ public class Reversenumber {
              reverse=reverse*10+digits;
              number=number/10;
          }
-        System.out.println("Reverse number of"+original+" is "+reverse);
+        System.out.println("Reverse number of"+ original+" is "+reverse);
     }
 }

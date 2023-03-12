@@ -15,6 +15,14 @@ public class Compare_functions {
         } else {
             System.out.println("not equal");
         }
+        if(s1.equals(s3)){
+            System.out.println("Equals");
+
+        }
+        else{
+            System.out.println("Not equal");
+        }
+        System.out.println(s1.compareTo(s2));
 
     }
 

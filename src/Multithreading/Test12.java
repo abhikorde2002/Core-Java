@@ -8,7 +8,7 @@ public class Test12 {
      //   System.out.println("Main Thread "+Thread.currentThread().getName());
 
         Multiple m = new Multiple();
-        m.setName("Hello codrs");
+        m.setName("Hello coders");
         m.start();
 
         Thread.currentThread().setName("Hello Jack");

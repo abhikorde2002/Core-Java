@@ -16,11 +16,12 @@ public class joins  extends Thread{
 }
 class Helllos {
     public static void main(String[] args) {
-        yields y = new yields();
-         y.start();
-         
+        // yields y = new yields();
+        //  y.start();
+         joins j= new joins();
+         j.start();
         try {
-            y.join(5000);
+            j.join(5000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             System.out.println("Exception");

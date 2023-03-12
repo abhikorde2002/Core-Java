@@ -5,9 +5,11 @@ package Search;
 public class BubbleSort {
     public static void main(String[] args) {
         int arr[] = { 6, 4, 1, 6, 2, 3, 4, 5 };
-        printArr(arr);
+       // printArr(arr);
+        System.out.println();
         swaped(arr);
-        printArr(arr);
+        System.out.println();
+       // printArr(arr);
     }
 
     static void bubble(int arr[]) {

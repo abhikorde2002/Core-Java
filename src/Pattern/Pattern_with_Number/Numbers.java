@@ -1,9 +1,11 @@
 package Pattern.Pattern_with_Number;
 
+import java.io.FileDescriptor;
+
 public class Numbers {
     public static void main(String[] args) {
         int num=5;
-        pattern1(num);
+        patterns5(num);
     }
     static void pattern1(int n) {
         int count = 1;

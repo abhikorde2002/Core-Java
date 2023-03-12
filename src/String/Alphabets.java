@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Alphabets {
     public static void main(String[] args) {
-        alpha1('2');
+        char ch=' ';
+        alpha1(ch);
         alpha("Abhishek2");
     }
 
