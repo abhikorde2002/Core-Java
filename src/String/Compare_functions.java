@@ -10,11 +10,13 @@ public class Compare_functions {
         } else {
             System.out.println("not equal");
         }
+
         if (s1 == s3) {
             System.out.println("Equal");
         } else {
             System.out.println("not equal");
         }
+
         if(s1.equals(s3)){
             System.out.println("Equals");
 
@@ -22,6 +24,21 @@ public class Compare_functions {
         else{
             System.out.println("Not equal");
         }
+
+        if(s2.equals(s3)){
+            System.out.println("String equal");
+        }
+        else{
+            System.out.println("Not equal");
+        }
+
+        if(s2==s3){
+            System.out.println("Equal");
+        }
+        else{
+            System.out.println("Not equal");
+        }
+        
         System.out.println(s1.compareTo(s2));
 
     }

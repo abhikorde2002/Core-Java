@@ -5,7 +5,7 @@ import java.io.FileDescriptor;
 public class Numbers {
     public static void main(String[] args) {
         int num=5;
-        patterns5(num);
+        peramid1(num);
     }
     static void pattern1(int n) {
         int count = 1;
@@ -67,10 +67,10 @@ public class Numbers {
        */
       static void peramid1(int num){
         for(int row=0;row<=num;row++){
-            for(int space=0;space<= (num-row);space++){
+            for(int space=0;space<= 2*num-row;space++){
                 System.out.print(" ");
             }
-            for(int col=1;col<=row;col++){
+            for(int col=1;col<= row;col++){
                 System.out.print(col+" ");
             }
             System.out.println();
@@ -176,5 +176,25 @@ static void patttern9(int num){
 3 3 3
 4 4
 5
+ */
+
+ static void peramid(int num){
+    for(int row=0;row<=num;row++){
+        for(int space=0;space<= 2*(num-row);space++){
+            System.out.print(" ");
+        }
+        for(int col=1;col<=row;col++){
+            System.out.print(col+" ");
+        }
+        System.out.println();
+    }
+}
+/*
+           
+         1 
+       1 2 
+     1 2 3 
+   1 2 3 4 
+ 1 2 3 4 5 
  */
 }

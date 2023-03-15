@@ -3,7 +3,7 @@ package Pattern.Patterns_with_spaces;
 public class Pattern1 {
     public static void main(String[] args) {
         int num=5;
-        pat(num);
+        pattern4(num);
     }
     static void peramid(int num){
         for(int row=0;row<=num;row++){
@@ -47,7 +47,7 @@ public class Pattern1 {
             for(int space=0;space<row;space++){
                 System.out.print(" ");
             }
-            for(int col=row;col< num;col++){
+            for(int col=row;col<=2*num-row;col++){
                 System.out.print("* ");
             }
         System.out.println();    
@@ -64,21 +64,26 @@ public class Pattern1 {
      
     static void pattern(int num){
         for(int row=1;row<=num;row++){
-            for(int col=1;col<=num-row;col++){
+            for(int col=1;col<=2*(num-row);col++){
                 System.out.print(" ");
             }
             for(int col=1;col<=row;col++){
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
       }
       /*
-    *
+    *         
    **
   ***
  ****
 *****
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
        */
     static void pattern2(int num){
         for(int row=1;row<=num;row++){
@@ -125,11 +130,11 @@ public class Pattern1 {
       *
      */
     static void pattern4(int num){
-        for(int row=0;row<num;row++){
+        for(int row=0;row<=num;row++){
             for(int space=0;space<row;space++){
                 System.out.print(" ");
             }
-            for(int col=row;col<num;col++){
+            for(int col=row;col<=num;col++){
                 System.out.print("*");
             }
             System.out.println();
