@@ -1,6 +1,6 @@
-package Digites;
-
-public class EvenNumSum {
+package Practice_Quesion.Loop;
+//Count of even and odd count Program
+public class Even_Odd {
     static int sumofEven=0;
     static int sumofOdd=0;
     public static void main(String[] args) {
@@ -22,4 +22,5 @@ public class EvenNumSum {
       System.out.println("Even sum:-"+sumofEven);  
       System.out.println("Odd sum:- "+sumofOdd);
     }
-}
+    }
+
