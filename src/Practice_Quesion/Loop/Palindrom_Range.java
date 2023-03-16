@@ -1,4 +1,4 @@
-package Practice_Quesion;
+package Practice_Quesion.Loop;
 
 import javax.swing.SortOrder;
 
