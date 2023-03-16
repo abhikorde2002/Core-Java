@@ -1,5 +1,5 @@
 package Practice_Quesion.Loop;
-
+//Write a program to find greatest among three integers
 public class Max_number {
     public static void main(String[] args) {
         int num=10;
