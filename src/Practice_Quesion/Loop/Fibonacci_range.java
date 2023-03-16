@@ -1,4 +1,4 @@
-package Practice_Quesion;
+package Practice_Quesion.Loop;
 
 public class Fibonacci_range {
     public static void main(String[] args) {
