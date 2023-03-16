@@ -3,7 +3,7 @@ package Pattern.patterns_;
 public class AllStarPatterns {
     public static void main(String[] args) {
         int num=5;
-        pattern(num);
+        pattern2(num);
     }
     static void pattern(int num){
         for(int row=0;row< num;row++){
@@ -42,7 +42,7 @@ static void pattern2(int num){
             System.out.print("a ");
         }
         for(int col=1;col<=row;col++){
-            System.out.print("*  ");
+            System.out.print("* ");
         }
     System.out.println();    
     }

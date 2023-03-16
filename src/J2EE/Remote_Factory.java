@@ -1,4 +1,4 @@
-package Collection;
+package J2EE;
 
 public class Remote_Factory {
     public static Lremote getProjector(String type){

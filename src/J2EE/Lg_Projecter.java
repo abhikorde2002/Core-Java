@@ -1,4 +1,4 @@
-package Collection;
+package J2EE;
 
 public class Lg_Projecter implements Lremote{
 

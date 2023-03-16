@@ -1,4 +1,4 @@
-package Collection;
+package J2EE;
 
 public class Samsung_Projecter implements Lremote{
 

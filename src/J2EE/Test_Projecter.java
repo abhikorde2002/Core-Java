@@ -1,4 +1,4 @@
-package Collection;
+package J2EE;
 
 import java.util.Scanner;
 

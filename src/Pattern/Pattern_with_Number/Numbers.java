@@ -4,17 +4,32 @@ import java.io.FileDescriptor;
 
 public class Numbers {
     public static void main(String[] args) {
-        int num=5;
-        peramid1(num);
+        int num=4;
+        patterns(num);
     }
-    static void pattern1(int n) {
+    static void Floyd(int n) {
         int count = 1;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j <= i; j++) {
-                System.out.print((count < 10) ? " " + count++ + " " : count++ + " ");
+                // System.out.print((count < 10) ? " " + count++ + " " : count++ + " ");
+                if(count<=10){
+                   System.out.print(count++ +" ");
+                }
+               
             }
             System.out.println();
         }
+    }
+    static void patterns(int n){
+        int cou=1;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<=i;j++){
+                System.out.print(cou+" ");
+                cou++;
+            }
+            System.out.println();
+        }
+
     }
     // pattern output
     // 1
