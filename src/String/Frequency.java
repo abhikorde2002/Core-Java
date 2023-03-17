@@ -1,5 +1,5 @@
 package String;
-
+//Frequency of caracter
 import java.util.Scanner;
 
 public class Frequency {
