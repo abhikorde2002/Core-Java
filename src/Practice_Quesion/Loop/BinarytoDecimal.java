@@ -1,3 +1,6 @@
+package Practice_Quesion.Loop;
+
+
 public class BinarytoDecimal {
     public static void main(String[] args) {
         bintoDec(101);

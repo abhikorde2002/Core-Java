@@ -1,9 +1,8 @@
-
+package Practice_Quesion.Loop;
 public class DecimalToBinary {
     public static void main(String[] args) {
         decimal(5);
     }
-
     static void decimal(int n) {
         int myNum = n;
         int pow = 0;
