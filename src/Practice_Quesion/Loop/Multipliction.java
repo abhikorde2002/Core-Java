@@ -1,5 +1,6 @@
 package Practice_Quesion.Loop;
-
+//Multiplication of the given number Program
+//I have try to multiply each digits of number
 public class Multipliction {
     
     public static void main(String[] args) {
