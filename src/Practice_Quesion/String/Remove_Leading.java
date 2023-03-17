@@ -1,8 +1,11 @@
 package Practice_Quesion.String;
 //How do you remove leading and trailing spaces from a string in Java?
 public class Remove_Leading {
+
     public static void main(String[] args) {
+        System.out.println("   Hello World");
        remove("     Hello World "); 
+       
     }
 
     static void remove(String str){
