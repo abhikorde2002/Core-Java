@@ -30,4 +30,23 @@ public class String_Palindrom {
 
            return false;
     }
+
+    static void pali(String str){
+        String newStr="";
+       
+        int i=str.length()-1;
+        while(i>=0){
+            char ch=str.charAt(i);
+            newStr =(String)(newStr+ch);
+            i--;
+        }
+        System.out.println(newStr);
+     
+        if(str.equals(newStr)){
+            System.out.println("Palindrom");
+        }
+        else{
+            System.out.println("Not Palindrom ");
+        }
+    }
 }
