@@ -1,5 +1,5 @@
 package Practice_Quesion.String;
-
+//Separate reverse of each word in the string Program.
 public class Reverse_word {
     public static void main(String[] args) {
        revers("I am The King");
@@ -12,7 +12,7 @@ public class Reverse_word {
             String words=word[i];
              String str2="";
             for(int j=0;j<=words.length()-1;j++){
-                str2=words.charAt(j)+str2 ;
+                str2=" "+words.charAt(j)+str2 ;
             }
             str+=str2+" ";
         }
