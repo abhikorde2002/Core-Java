@@ -1,5 +1,5 @@
 package Practice_Quesion.String;
-
+//Write a Program to print all substrings of a given string
 public class Substring {
     public static void main(String[] args) {
         SubString("Abhishek");
