@@ -5,7 +5,7 @@ import java.util.Arrays;
 class Concate{ 
     public static void main(String[] args) {
         int arr[]={10,20,30,40};
-        int num[]={50,60,70,80};
+        int num[]={10,20,30,40};
         concat(arr, num);
     }
 
@@ -15,22 +15,7 @@ class Concate{
         ans[i]=arr[i];
         ans[i+arr.length]=num[i];
          
-       }
-       boolean flag=false;
-       for(int i=0;i<ans.length;i++){
-        for(int j=i+1;j<ans.length;j++){
-           if(ans[i]==ans[j]){
-              flag=true;
-           }
-        } 
-       }
-       if(flag==true){
-        System.out.println("Arrays contain the same elements");
-       }
-       else{
-        System.out.println("Arrays not contain the same elements");
-       }
-      
+       }  
        System.out.println(Arrays.toString(ans));
     }
 
