@@ -14,7 +14,21 @@ class Concate{
        for(int i=0;i<arr.length;i++){
         ans[i]=arr[i];
         ans[i+arr.length]=num[i];
-        
+         
+       }
+       boolean flag=false;
+       for(int i=0;i<ans.length;i++){
+        for(int j=i+1;j<ans.length;j++){
+           if(ans[i]==ans[j]){
+              flag=true;
+           }
+        } 
+       }
+       if(flag==true){
+        System.out.println("Arrays contain the same elements");
+       }
+       else{
+        System.out.println("Arrays not contain the same elements");
        }
       
        System.out.println(Arrays.toString(ans));
