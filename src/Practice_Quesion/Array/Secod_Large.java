@@ -1,5 +1,5 @@
 package Practice_Quesion.Array;
-
+//How do you find the second largest number in an array in Java?
 import java.util.Arrays;
 
 public class Secod_Large {
@@ -19,22 +19,15 @@ public class Secod_Large {
 
       static void Secon_Large(int arr[]){
         for (int turn = 0; turn < arr.length - 1; turn++) {
-            boolean swap = false;
-          //  System.out.println("From outer loop " + turn);
             for (int j = 0; j < arr.length - 1 - turn; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int tem = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = tem;
-                    swap = true;
-                }
-              //  System.out.println("From inner loop " + j);
-                
+                }      
             }
             int ans=arr[arr.length-1];
-            System.out.println(ans);
-            if (swap == false)
-                return;
+            System.out.println(ans);        
         }
       }
     }
