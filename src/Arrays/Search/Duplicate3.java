@@ -1,6 +1,9 @@
 package Search;
 
 public class Duplicate3 {
+    int a;
+    public Duplicate3(int i) {
+    }
     public static void main(String[] args) {
         int arr[] = { 10, 20, 40, 20 };
         int index = 0;
@@ -20,5 +23,11 @@ public class Duplicate3 {
         for (int a : result) {
             System.out.println(a);
         }
+        Duplicate3 d = new Duplicate3(3);
+        d.Duplicate3(3);
+       
+    }
+    void Duplicate3(int a){
+       this.a=a;
     }
 }

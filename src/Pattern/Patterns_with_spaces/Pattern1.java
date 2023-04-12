@@ -3,7 +3,7 @@ package Pattern.Patterns_with_spaces;
 public class Pattern1 {
     public static void main(String[] args) {
         int num=5;
-        pattern4(num);
+        patterns3(num);
     }
     static void peramid(int num){
         for(int row=0;row<=num;row++){

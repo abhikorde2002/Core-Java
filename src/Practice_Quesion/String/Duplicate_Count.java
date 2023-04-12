@@ -2,7 +2,7 @@ package Practice_Quesion.String;
 
 public class Duplicate_Count {
     public static void main(String[] args) {
-        Count("Abhishek korde");
+        Count("Abhishek A");
     }
 
     static void Count(String str){
@@ -11,7 +11,9 @@ public class Duplicate_Count {
 
         for(int i=0;i<str.length();i++){
             char ch=str.charAt(i);
+            System.out.println("Outer loop :- " +i);
             for(int j=i+1;j<str.length()-1;j++){
+                System.out.println("Inner loop :- " +j);
                 if(str.charAt(i)!=str.charAt(j)){
                     str1+=ch;
                 }
@@ -21,6 +23,6 @@ public class Duplicate_Count {
             }
         }
         System.out.println(str1);
-        System.out.println("Duplicate count is : -" +count);
+        System.out.println("Duplicate count is :- " +count);
     }
 }

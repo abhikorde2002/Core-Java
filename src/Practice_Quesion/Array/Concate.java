@@ -7,6 +7,7 @@ class Concate{
         int arr[]={10,20,30,40};
         int num[]={10,20,30,40};
         concat(arr, num);
+        con(arr);
     }
 
     static void concat(int arr[],int num[]){
@@ -17,6 +18,15 @@ class Concate{
          
        }  
        System.out.println(Arrays.toString(ans));
+    }
+
+    static void con(int arr[]){
+        int ans[]=new int[2*arr.length];
+        for(int i=0;i<arr.length;i++){
+            ans[i]=arr[i];
+            ans[i+arr.length]=arr[i];
+        }
+        System.out.println(Arrays.toString(ans));
     }
 
  }
