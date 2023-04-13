@@ -7,13 +7,12 @@ public class Secod_Large {
        int arr[]={4,5,3,2};
        Second(arr);
        Secon_Large(arr);
-      
     }   
     
     static void Second(int arr[]){
         int size=arr.length;
         Arrays.sort(arr);
-        int ans=arr[size-1];
+        int ans=arr[size-3];
         System.out.println(ans);
       }
 
@@ -26,7 +25,7 @@ public class Secod_Large {
                     arr[j + 1] = tem;
                 }      
             }
-            int ans=arr[arr.length-1];
+            int ans=arr[arr.length-3];
             System.out.println(ans);        
         }
       }

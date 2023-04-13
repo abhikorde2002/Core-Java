@@ -22,12 +22,6 @@ public class Duplicate3 {
         }
         for (int a : result) {
             System.out.println(a);
-        }
-        Duplicate3 d = new Duplicate3(3);
-        d.Duplicate3(3);
-       
-    }
-    void Duplicate3(int a){
-       this.a=a;
+        }    
     }
 }

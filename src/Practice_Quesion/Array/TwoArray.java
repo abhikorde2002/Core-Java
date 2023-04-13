@@ -1,5 +1,5 @@
 package Practice_Quesion.Array;
-
+// Write a Java program that checks if two arrays contain the same elements
 import java.util.Arrays;
 
 public class TwoArray {
@@ -19,7 +19,7 @@ public class TwoArray {
      System.out.println("Array i and a are equal :- "+str);
      
      int arr[]={1,2,3,4,5};
-     int num[]={ 1,2,3,4,5 };
+     int num[]={1,2,3,4,5};
      check(arr,num);
     }
 
