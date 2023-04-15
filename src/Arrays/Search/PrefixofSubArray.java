@@ -1,5 +1,7 @@
 package Search;
 
+import java.util.Arrays;
+
 public class PrefixofSubArray {
     public static void main(String[] args) {
         int arr[] = { 1, -2, 6, -1, 3 };
@@ -15,7 +17,12 @@ public class PrefixofSubArray {
         // Calculate Prifix
         for (int i = 1; i < prefix.length; i++) {
             prefix[i] = prefix[i - 1] + arr[i];
+            
         }
+        System.out.println(Arrays.toString(prefix));
+        // for (int i : prefix) {
+        //     System.out.print(" "+Arrays.toString(i));
+        // }
 
         for (int i = 0; i < arr.length; i++) {
             int start = i;

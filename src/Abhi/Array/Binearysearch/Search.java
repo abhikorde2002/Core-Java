@@ -26,9 +26,7 @@ public class Search {
             else {
                 return mid;
             }
-
         }
         return -1;
     }
-
 }
