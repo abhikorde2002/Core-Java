@@ -16,8 +16,7 @@ public class PrefixofSubArray {
         prefix[0] = arr[0];
         // Calculate Prifix
         for (int i = 1; i < prefix.length; i++) {
-            prefix[i] = prefix[i - 1] + arr[i];
-            
+            prefix[i] = prefix[i - 1] + arr[i];  
         }
         System.out.println(Arrays.toString(prefix));
         // for (int i : prefix) {

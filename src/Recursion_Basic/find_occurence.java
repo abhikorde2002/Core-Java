@@ -3,8 +3,8 @@ package Recursion_Basic;
 //First Occurence of an element in an array.
 public class find_occurence {
     public static void main(String[] args) {
-        int arr[] = { 1, 2, 3, 4, 5, 6 };
-        System.out.println(problem(arr, 0, 55));
+        int arr[] = { 1, 2, 3, 4, 2, 2 };
+        System.out.println(problem(arr, 0, 2));
     }
 
     static int problem(int arr[], int i, int key) {
@@ -12,8 +12,10 @@ public class find_occurence {
             return -1;
         }
         if (arr[i] == key) {
-            return i;
+             return i;
+       
         }
+        
         return problem(arr, i + 1, key);
     }
 }
