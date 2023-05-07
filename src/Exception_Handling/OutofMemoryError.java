@@ -13,6 +13,14 @@ public class OutofMemoryError {
         finally{
             System.out.println("Finaly block executed");
         }
+
+
+
+    }
+    @Override
+    protected void finalize() throws Throwable {
+        // TODO Auto-generated method stub
+        super.finalize();
     }
 }
 //Exception in thread "main" java.lang.OutOfMemoryError: Java heap space

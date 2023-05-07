@@ -35,7 +35,7 @@ class Bank {
         if (!isAdmin) {
             System.out.println("No");
         } else {
-            this.password = password;
+            2this.password = password;
             System.out.println("You can do");
         }
     }

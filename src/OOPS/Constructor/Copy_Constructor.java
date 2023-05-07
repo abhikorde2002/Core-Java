@@ -25,7 +25,7 @@ class Student {
     int roll;
     String password;
     int marks[];
-
+    
     Student() {
         System.out.println("Cons");
         marks = new int[3];

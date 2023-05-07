@@ -13,9 +13,9 @@ public class Hierarchial {
     }
 }
 
-class Animal {
+class Animal extends Hierarchial{
     String color;
-
+    
     void eat() {
         System.out.println("Eats");
     }
