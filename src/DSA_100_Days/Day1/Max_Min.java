@@ -20,5 +20,6 @@ public class Max_Min {
         }
         System.out.println("Maximum Value is :- "+max);
         System.out.println("Min value :- "+min);
+        System.out.println(max - min);
     }
 }

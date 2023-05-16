@@ -12,7 +12,7 @@ public class Multiple_inheritance {
 }
 
 interface herbivore {
-    void eat();
+    public abstract void  eat();
 }
 
 interface Carnivore {

@@ -16,6 +16,7 @@ public class swap {
           int tem=arr[arr.length-1-i];
           arr[arr.length-1-i]=arr[i];
           arr[i]=tem;
+          break;
       }
     }
     static void swa(int []arr,int index1,int index2){

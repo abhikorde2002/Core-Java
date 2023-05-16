@@ -6,6 +6,7 @@ public class Numbers {
     public static void main(String[] args) {
         int num=4;
         patterns(num);
+        Floyd(num);
     }
     static void Floyd(int n) {
         int count = 1;

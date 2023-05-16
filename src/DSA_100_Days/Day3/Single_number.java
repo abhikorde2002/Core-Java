@@ -4,8 +4,10 @@ import java.util.Arrays;
 
 public class Single_number {
     public static void main(String[] args) {
-        int arr[]={1,2,2};
+        int arr[]={2,2,3,3};
         single(arr);
+        Single_number a= new Single_number();
+        System.out.println(a.singleNumber(arr));
     }
 
     static void single(int num[]){

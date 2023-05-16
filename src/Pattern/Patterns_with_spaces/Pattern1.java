@@ -4,10 +4,11 @@ public class Pattern1 {
     public static void main(String[] args) {
         int num=5;
         patterns3(num);
+        peramid(num);
     }
     static void peramid(int num){
         for(int row=0;row<=num;row++){
-            for(int space=0;space<= (num-row);space++){
+            for(int space=0;space<= ((num)-row);space++){
                 System.out.print(" ");
             }
             for(int col=0;col<=row;col++){

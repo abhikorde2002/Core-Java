@@ -6,7 +6,7 @@ class Rectangle{
       public static void main(String[] args) {
         
         Zero_one(5);
-        // pattern_hollow(5,4);
+       pattern_hollow(5,4);
       }
 
       static void pattern_hollow(int totalcol,int totalrow){

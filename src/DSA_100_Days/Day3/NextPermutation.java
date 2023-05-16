@@ -1,7 +1,6 @@
 package DSA_100_Days.Day3;
 
 import java.util.Arrays;
-import java.util.Vector;
 
 public class NextPermutation {
     public static void main(String[] args) {
